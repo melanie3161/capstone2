@@ -9,23 +9,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles/main.css">
+    <script src="data/locationData.js"></script>
+    <script src="data/parkTypeData.js"></script>
+    <script src="data/nationalParkData.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/parks.js"></script>
 </head>
-<body class="home">
+<body>
     <nav id="nav"></nav>
-    <h1>Welcome!</h1>
-    <a href="parks.html">
-        <button>
-            <img src="images/parks.jpg"><br>
-            Parks
-        </button>
-    </a>
-    <a href="mountains.html">
-        <button>
-            <img src="images/CDome-StoryImage.jpg"><br>
-            Mountains
-        </button>
-    </a>
-    
+    <h1>National Parks</h1>
+    <select id="location" value=""><option value="">Select a Location</option></select>
+    <select id="type" value=""><option value="">Select a Type</option></select>
+    <input id="search" placeholder="Enter text to search">
+    <div id="results"></div>
 </body>
 </html>

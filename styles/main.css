@@ -1,0 +1,65 @@
+body{
+    padding: 1em;
+    background-color: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: block;
+    margin-bottom: 1em;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    background-color: darkolivegreen;
+    color: goldenrod;
+    font-size: 1em;
+    padding: 0.25em;
+    margin: 1px;
+    border-radius: 0.25em;
+    display: inline-block;
+}
+.card{
+    margin: 3px 9px 9px 3px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 160px;
+    min-height: 80px;
+    display: inline-flex;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    border: 1px inset;
+}
+.home img{
+    margin-top: 6px;
+    max-width: 40vw;
+    border-radius: 6px;
+    border: 1px inset;
+    height: 200px;
+    object-fit: cover;
+}
+.home button{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+}
+.card-description{
+    max-height: 0px;
+    height: 0;
+    opacity: 0;
+    transition: 1s;
+    /* display: none; */
+}
+.card:hover .card-description{
+    max-height: 1000px;
+    height: 444px;
+    opacity: 1;
+    transition: 1s;
+
+    /* display: block; */
+}
