@@ -1,6 +1,6 @@
 body{
     padding: 1em;
-    background-color: skyblue;
+    background-color: navy;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav{
@@ -11,8 +11,8 @@ a{
     text-decoration: none;
 }
 nav a{
-    background-color: darkolivegreen;
-    color: goldenrod;
+    background-color:forestgreen;
+    color: gold;
     font-size: 1em;
     padding: 0.25em;
     margin: 1px;
