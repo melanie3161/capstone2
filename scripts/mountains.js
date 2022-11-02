@@ -28,7 +28,7 @@ function mountainCard(item) {
 }
 function filter() {
     const effort = document.getElementById("effort");
-    const v = effort.selectedOptions[0].value;
+    const v = effort.selectedOptions[0 ].value;
     console.log(v)
     if (v == "all") {
         showMountains(mountainsArray)
